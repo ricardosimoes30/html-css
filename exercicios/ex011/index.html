@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas, até borraste!</h1>
+    <p>Tente abrir este site em vários dispositivos diferentes ou simplesmente aumente e diminua o seu tamanho</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png">
+        <source media="(max-width: 1030px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem fléxivel">
+    </picture>
+    <h1>Aúdio</h1>
+    <p>Vamos aprender a meter som!</p>
+    <audio src="media/Awful - josh pan.mp3" controls autoplay></audio>
+    <p>
+    <audio preload="auto" autoplay controls>
+        <source src="media/Piano Trap Beethoven - josh pan.mp3" type="audio/mp3">
+    </audio></p>
+</body>
+</html>

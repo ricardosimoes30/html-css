@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(228, 255, 202);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    color: rgb(82, 134, 33);
+}
+
+#principal{
+    text-align: center;
+    background-color: seagreen;
+    color: rgb(228, 255, 202);
+    box-shadow:2px 2px 5px black;
+    /*border: 2px solid black;*/
+    margin: auto;
+    border-radius: 3px;
+}
+
+h2{
+    color: rgb(57, 61, 52);
+}
